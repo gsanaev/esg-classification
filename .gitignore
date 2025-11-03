@@ -9,3 +9,7 @@ outputs/
 *.parquet
 *.pkl
 *.log
+
+uv.lock
+.DS_Storeuv.lock
+.DS_Store
