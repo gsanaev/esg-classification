@@ -54,3 +54,33 @@ The current version focuses on machine learning experimentation and model interp
 
 ## Planned Repository Structure
 
+esg-classification/
+├── data/ # Kaggle ESG dataset
+├── notebooks/ # Exploration and modeling notebooks
+│ ├── 01_explore_data.ipynb
+│ ├── 02_preprocess_features.ipynb
+│ ├── 03_train_models.ipynb
+│ └── 04_model_evaluation.ipynb
+├── src/ # Preprocessing and ML pipeline scripts
+│ ├── preprocessing.py
+│ ├── train.py
+│ └── evaluate.py
+├── README.md
+└── requirements.txt
+
+
+---
+
+## Next Steps
+
+- [ ] Upload the Kaggle ESG dataset to `data/`  
+- [ ] Develop preprocessing and feature selection scripts  
+- [ ] Train initial classification models (logistic regression, random forest)  
+- [ ] Evaluate performance and visualize feature importance  
+- [ ] Prepare final analysis notebook and results summary  
+
+---
+
+## License
+
+This project is released for educational and research purposes only.
